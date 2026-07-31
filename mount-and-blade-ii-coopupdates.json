@@ -8,12 +8,11 @@
         "SkipOnFailure": false
     },
     {
-        "UpdateStageName": "Download Server",
+        "UpdateStageName": "Download Coop Workshop Mod",
         "UpdateSourcePlatform": "All",
-        "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "3770450698",
-        "UpdateSourceArgs": "261550",
-        "UpdateSourceVersion": "{{$FullRootDir}}",
+        "UpdateSource": "Run",
+        "UpdateSourceData": "steamcmd +login anonymous +workshop_download_item 261550 3770450698 +quit",
         "SkipOnFailure": false
     }
+
 ]
