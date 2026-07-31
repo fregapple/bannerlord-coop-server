@@ -11,8 +11,8 @@
         "UpdateStageName": "Download Server",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "261550",
-        "UpdateSourceArgs": "3770450698",
+        "UpdateSourceData": "3770450698",
+        "UpdateSourceArgs": "261550",
         "ForceDownloadPlatform": "Windows",
         "UpdateSourceVersion": "public",
         "SkipOnFailure": false
