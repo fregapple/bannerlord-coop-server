@@ -15,4 +15,5 @@
         "UpdateSourceArgs": "261550",
         "UpdateSourceVersion": "{{$FullRootDir}}",
         "SkipOnFailure": false
+    }
 ]
