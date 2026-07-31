@@ -13,7 +13,6 @@ Meta.ContainerPolicyReason=The server requires Wine on Linux
 Meta.Prerequsites=[]
 Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$SteamQueryPort}
 Meta.AppConfigId=0d9209ce-af1c-4188-aa2d-13ca5095bb26
-Meta.DisplayImageSource=steam:261550
 App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
