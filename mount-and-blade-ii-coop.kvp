@@ -35,6 +35,7 @@ App.UniversalSleepApplicationUDPPortRef=GamePort1
 App.PrimaryApplicationPortRef=GamePort1
 App.UniversalSleepSteamQueryPortRef=SteamQueryPort
 App.StoresSupported=SteamWorkshop
+App.StoreDownloadLocations={"SteamWorkshop":"{{{$FullBaseDir}}")
 App.SteamWorkshopDownloadLocation={{$FullBaseDir}}
 App.MaxUsers=8
 App.UseRandomAdminPassword=False
