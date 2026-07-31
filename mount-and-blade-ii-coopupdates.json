@@ -6,5 +6,15 @@
         "UpdateSourceData": "/bin/bash",
         "UpdateSourceArgs": "-c \"WINEPREFIX=\\\"{{$FullRootDir}}.wine\\\" WINEARCH=win64 WINEDEBUG=-all /usr/bin/wineboot --init --update\"",
         "SkipOnFailure": false
-    }
+    },
+    {
+        "UpdateStageName": "Download Server",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "261550",
+        "UpdateSourceArgs": "3770450698",
+        "ForceDownloadPlatform": "Windows",
+        "UpdateSourceVersion": "public",
+        "SkipOnFailure": false
+        
 ]
