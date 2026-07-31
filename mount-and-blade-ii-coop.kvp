@@ -70,7 +70,6 @@ Console.AppReadyRegex=^$
 Console.UserJoinRegex=^$
 Console.UserLeaveRegex=^$
 Console.UserChatRegex=^$
-Meta.OS=1
 Meta.ConfigManifest=mount-and-blade-ii-coopconfig.json
 Meta.MetaConfigManifest=mount-and-blade-ii-coopmetaconfig.json
 Meta.ConfigRoot=mount-and-blade-ii-coop.kvp
