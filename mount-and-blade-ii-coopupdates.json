@@ -1,17 +1,5 @@
 [
     {
-        "UpdateStageName": "Downloading server",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://www.moddb.com/downloads/start/313475?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fbannerlord-coop%2Fdownloads",
-        "UpdateSourceArgs": "fregapple/bannerlord-coop-server",
-        "UpdateSourceTarget": ".",
-        "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": true,
-        "DeleteAfterExtract": true,
-        "OneShot": false
-    },
-    {
         "UpdateStageName": "Initialise Wine",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
