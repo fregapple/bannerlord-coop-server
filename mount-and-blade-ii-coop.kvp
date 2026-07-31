@@ -86,4 +86,4 @@ App.ExecutableLinux=/usr/bin/wine
 App.LinuxCommandLineArgs=BannerlordCoopServer.exe
 App.Ports=@IncludeJson[mount-and-blade-ii-coopports.json]
 App.UpdateSources=@IncludeJson[mount-and-blade-ii-coopupdates.json]
-App.EnvironmentVariables={"SteamAppId":"261550","LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
+App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
