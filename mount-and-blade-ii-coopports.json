@@ -8,9 +8,9 @@
     },
     {
         "Protocol": "UDP",
-        "Port": "4201",
-        "Name": "Port 1",
-        "Description": "Port used for main game traffic",
-        "Ref": "Port1"
+        "Port": 4201,
+        "Ref": "QueryPort",
+        "Name": "Query Port",
+        "Description": "Port for query traffic"
     }
 ]
